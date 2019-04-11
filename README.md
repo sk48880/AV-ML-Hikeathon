@@ -1,7 +1,9 @@
 # AV-ML-Hikeathon
 
-ML Hikeathon
+# ML Hikeathon
+
 Problem Statement
+
 Link Prediction on Hike’s Social Network Social networks are highly dynamic; they grow and change quickly over time through the addition of new edges, signifying the appearance of new interactions in the underlying social structure. The fundamental computational problem underlying social-network evolution is the Link Prediction problem:
 
 Hike is a social platform and predicting links in their network forms the basis for recommending new friends to our users with whom they can possibly start a chat. High-quality recommendations help in strengthening the network by aiding the creation of new social connections between existing users. It also helps in the retention of new users by helping them find friends as they join the platform.
@@ -21,19 +23,11 @@ test.csv (contained in test.zip) Build a model that can learn to predict probabi
 
 for which participants are required to predict is_chat on the test set. (Note that id is just here to identify a unique row in test set and is used in the submission format section)
 
-Submission Format
-Submission file must be in a zipped format containing only one csv corresponding to the submission. The format to be followed is:
 
-id	is_chat
-1	0.25
-2	0.26
-3	0.69
-4	0.27
-5	0.22
-Evaluation Metric
+# Evaluation Metric
 The submitted output will be evaluated by the AUC-ROC score
 
-Competition Link
-Leaderboard
-Public LB : 59th Rank
-Private LB : 56th Rank
+# Competition Link
+# Leaderboard
+# Public LB : 59th Rank
+# Private LB : 56th Rank
